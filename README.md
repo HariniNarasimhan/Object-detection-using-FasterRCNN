@@ -53,6 +53,7 @@ Optimizer used - SGD(Stochastic Gradient descent)
 Loss - As from the pre-trained model 
 
 {'loss_classifier', 'loss_box_reg', 'loss_objectness', 'loss_rpn_box_reg'} - The sum of all these losses are backpropagated for optimization
+
 Epochs-100
 
 # Results
