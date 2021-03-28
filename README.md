@@ -50,17 +50,26 @@ Loss - As from the pre-trained model
 {'loss_classifier', 'loss_box_reg', 'loss_objectness', 'loss_rpn_box_reg'} - The sum of all these losses are backpropagated for optimization
 Epochs-100
 
-# FasterRCNN with Mobilenetv2 backbone
-
-Same implementation as above experiment but with different network
-Epochs-100
-
 # Results
 
-![table](images/table.png)
+![table](images/table.jpg)
 
-# FasterRCNN with FPN model - sample results
+# FasterRCNN with FPN model - sample results from validation set
+![sample1](images/sample_results1.png)
+![sample2](images/sample_results2.png)
+![sample3](images/sample_results3.png)
 
+# Test any image through the notebook - Demo_testing_model.ipynb
 
-# FasterRCNN with MobileNetv2 backbone - sample results
+Sample results from random google images
+
+![sample1](images/sample_results_demo1.png)
+![sample2](images/sample_results_demo2.png)
+
+# Next steps:
+As a pretrained architecture without any fine tuning is implemented, the following can be next steps to improvise the results
+1. Anchor box tuning - by modifying the rpn (region proposal network) anchor generator in the model using rpn.Anchorgenerator where we can give specific anchor box sizes and aspect ratios.
+2. ROI pooling tuning - Modyfying the multi scale roi allignment of the ROI pooling layer
+3. Trying a different advanced object detection architecture - (YOLO PIXtoPIX,  different backbone network, etc)
+4. Different preprocesssing techniques 
 
