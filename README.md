@@ -5,6 +5,7 @@ Note:
 1. Please check the requirements from requirements.txt
 2. Make sure the path of the files are changed accordingly
 
+Please download the trained-model from https://drive.google.com/drive/folders/1jfb4rJqrpFWp3r36_ALp5y5nW6Qzcrvv?usp=sharing
 # All about the dataset
 
 The dataset is in th format of COCO for two classes - person and car. The following are the EDA performed on the dataset.
