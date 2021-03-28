@@ -1,6 +1,10 @@
 # Object-detection-using-FasterRCNN
 Implementing the Object detection on a custom dataset using FasterRCNN pytorch
 
+Note: 
+1. Please check the requirements from requirements.txt
+2. Make sure the path of the files are changed accordingly
+
 # All about the dataset
 
 The dataset is in th format of COCO for two classes - person and car. The following are the EDA performed on the dataset.
