@@ -76,6 +76,6 @@ Sample results from random google images
 As a pretrained architecture without any fine tuning is implemented, the following can be next steps to improvise the results
 1. Anchor box tuning - by modifying the rpn (region proposal network) anchor generator in the model using rpn.Anchorgenerator where we can give specific anchor box sizes and aspect ratios.
 2. ROI pooling tuning - Modyfying the multi scale roi allignment of the ROI pooling layer
-3. Trying a different advanced object detection architecture - (YOLO PIXtoPIX,  different backbone network, etc)
+3. Trying a different advanced object detection architecture - (YOLO-PP,  different backbone network, etc)
 4. Different preprocesssing techniques 
 
